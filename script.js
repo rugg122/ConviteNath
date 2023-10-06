@@ -35,9 +35,9 @@ const moveNoButton = (noButton) => {
 yesButton.addEventListener("click", () => {
   let timerInterval;
   Swal.fire({
-    title: 'Vencemoooss!!! 😍',
+    title: 'Ahhh Feliz por poder passar mais um dia com você!!! 😍',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
-    timer: 2000,
+    timer: 3000,
     timerProgressBar: true,
     didOpen: () => {
       Swal.showLoading();
