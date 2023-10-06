@@ -5,7 +5,7 @@ yesButton.addEventListener('click', () => {
   Swal.fire({
     title: 'Ahhh, feliz por poder passar mais um dia com você!!! 😍',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
-    timer: 3000,
+    timer: 2000,
     timerProgressBar: true,
     didOpen: () => {
       Swal.showLoading();
