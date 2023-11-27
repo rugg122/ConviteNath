@@ -3,7 +3,7 @@ const noButtons = document.querySelectorAll('.no');
 
 yesButton.addEventListener('click', () => {
   Swal.fire({
-    title: 'Queria te dizer que Eu te amo muito, e você é a melhor parte dos meus dias!!',
+    title: 'Queria te dizer que Eu te amo muito, e que você é a melhor parte dos meus dias 🥰',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
     timer: 4000,
     timerProgressBar: true,
