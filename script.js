@@ -3,7 +3,7 @@ const noButtons = document.querySelectorAll('.no');
 
 yesButton.addEventListener('click', () => {
   Swal.fire({
-    title: 'Que bom que aceitou amor, e só pra constar eu Escrevi errado ... o certo era: Deixa eu te mamar* 😈',
+    title: 'Escrevi errado ... o certo era: Você vai Deixar eu te mamar* ? 😈',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
     timer: 4000,
     timerProgressBar: true,
