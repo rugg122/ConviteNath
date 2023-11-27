@@ -3,7 +3,7 @@ const noButtons = document.querySelectorAll('.no');
 
 yesButton.addEventListener('click', () => {
   Swal.fire({
-    title: 'Obrigado por me fazer tão feliz, Te amo mto 🥰',
+    title: 'tks for making me so happy, I love you so much !!🥰',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
     timer: 3000,
     timerProgressBar: true,
