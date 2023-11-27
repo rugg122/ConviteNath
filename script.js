@@ -27,7 +27,7 @@ yesButton.addEventListener('click', () => {
 noButtons.forEach((button) => {
   button.addEventListener('click', () => {
     Swal.fire({
-      title: 'Você clicou em Não Amor? :(',
+      title: 'Click yes babes!! :(',
       icon: 'error',
       confirmButtonText: 'OK',
     });
