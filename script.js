@@ -3,7 +3,7 @@ const noButtons = document.querySelectorAll('.no');
 
 yesButton.addEventListener('click', () => {
   Swal.fire({
-    title: 'Partiu dia de maldade hahaha 😈',
+    title: 'Eu te amo, e você é a melhor parte dos meus dias!!',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
     timer: 4000,
     timerProgressBar: true,
