@@ -3,9 +3,9 @@ const noButtons = document.querySelectorAll('.no');
 
 yesButton.addEventListener('click', () => {
   Swal.fire({
-    title: 'Ahhh, feliz por poder passar mais um dia com você!!! 😍',
+    title: 'Que bom que aceitou amor, e só pra constar eu Escrevi errado ... o certo era: Deixa eu te mamar* 😈',
     html: '<img src="Us.jpg" style="max-width: 100%;" />',
-    timer: 2000,
+    timer: 4000,
     timerProgressBar: true,
     didOpen: () => {
       Swal.showLoading();
@@ -19,7 +19,7 @@ yesButton.addEventListener('click', () => {
     },
     willClose: () => {
       // Redirecionamento aqui, após o temporizador expirar
-      window.location.href = 'https://www.youtube.com/watch?v=xnkMVbPia3A';
+      window.location.href = 'https://www.youtube.com/watch?v=SG4Hz-rChJk&list=RDSG4Hz-rChJk&start_radio=1';
     },
   });
 });
@@ -27,7 +27,7 @@ yesButton.addEventListener('click', () => {
 noButtons.forEach((button) => {
   button.addEventListener('click', () => {
     Swal.fire({
-      title: 'Você clicou em Não Amor? 😭',
+      title: 'Você clicou em Não Amor? T.T',
       text: 'Prometo que se Clicar em Sim , vamos nos divertir muitoooo!! hahaha',
       icon: 'error',
       confirmButtonText: 'OK',
